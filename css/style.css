@@ -610,16 +610,7 @@ img{
   padding: 26px 0px;
 }
 
-.main-header .logo-box .logo:before{
-  position: absolute;
-  content: '';
-  background: url(../images/icons/logo-shap.png);
-  width: 217px;
-  height: 58px;
-  left: -20px;
-  bottom: -58px;
-  background-repeat: no-repeat;
-}
+
 
 
 /** search-box **/
@@ -7664,6 +7655,7 @@ h3 a:hover{
 .contact-info-section{
   position: relative;
   display: block;
+  
 }
 
 .contact-info-section .sec-title{
@@ -7677,7 +7669,8 @@ h3 a:hover{
   display: block;
   background: #fff;
   border-radius: 20px;
-  padding: 89px 15px 76px 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   box-shadow: 0 20px 50px rgba(229, 229, 229, 0.8);
 }
 
@@ -7688,19 +7681,18 @@ h3 a:hover{
   line-height: 60px;
   color: #fbb419;
   font-weight: 400;
-  margin-bottom: 33px;
-}
+ }
 
 .contact-info-section .single-info-box:hover .inner-box .icon-box:before{
   transform: rotate(25deg);
 }
 
-.contact-info-section .info-column:nth-child(2) .single-info-box .inner-box .icon-box{
-  color: #43b3d9;
+.contact-info-section .info-column:first-child .single-info-box .inner-box .icon-box{
+  color: #15bdf5;
 }
 
 .contact-info-section .info-column:last-child .single-info-box .inner-box .icon-box{
-  color: #ff7162;
+  color: #db3357;
 }
 
 .contact-info-section .single-info-box .inner-box .icon-box:before{
@@ -7769,21 +7761,20 @@ h3 a:hover{
 
 .contact-form-section{
   position: relative;
-  display: block;
+  padding-top: 40px;
+  padding-bottom: 40px;
   background: #f0ede7;
 }
 
 .contact-form-section .sec-title{
   position: relative;
   display: block;
-  margin-bottom: 40px;
-}
+ }
 
 .contact-form-section .contact-form .form-group{
   position: relative;
   display: block;
-  margin-bottom: 20px;
-}
+ }
 
 .contact-form-section .contact-form .form-group:last-child{
   margin-bottom: 0px;
@@ -7821,16 +7812,3 @@ h3 a:hover{
   color:#2b3c6b;
 }
 
-/** google-map-section **/
-
-.google-map-section{
-  position: relative;
-  display: block;
-  width: 100%;
-}
-
-.google-map-section #contact-google-map{
-  position: relative;
-  width: 100%;
-  height: 500px;
-}
