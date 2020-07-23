@@ -1376,11 +1376,11 @@ width: 100%;
   position: absolute;
   content: '';
   background: #9be9ff;
-  width: 215px;
-  height: 215px;
-  border-radius: 50%;
-  left: -135px;
-  top: 105px;
+  width: 400px;
+  height: 200px;
+  border-radius: 5%;
+  right: -55px;
+  top: -105px;
   -webkit-animation: zoom-fade 5s infinite linear;
   animation: zoom-fade 5s infinite linear;
 }
@@ -1404,11 +1404,12 @@ width: 100%;
 .about-section .image-box .image-1 img{
   border-radius: 30px;
 }
+ 
 
 .about-section .image-box .image-2{
-  position: absolute;
-  left: -85px;
-  bottom: -125px;
+ position: relative;
+ padding-top: 20px;
+   vertical-align: middle;
   border: 15px solid #fff;
   border-radius: 30px;
 }
