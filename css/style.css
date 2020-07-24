@@ -1376,14 +1376,17 @@ width: 100%;
   position: absolute;
   content: '';
   background: #9be9ff;
-  width: 400px;
-  height: 200px;
-  border-radius: 5%;
-  right: -55px;
-  top: -105px;
+  width: 215px;
+  height: 215px;
+  border-radius: 50%;
+  left: -135px;
+  top: 105px;
   -webkit-animation: zoom-fade 5s infinite linear;
   animation: zoom-fade 5s infinite linear;
 }
+
+
+
 
 .about-section .image-box .image{
   position: relative;
