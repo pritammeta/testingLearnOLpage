@@ -1,5 +1,5 @@
  
-/* Css For Kidko */
+/* Css For LearnOL */
 
 /************ TABLE OF CONTENTS ***************
 1. Fonts
@@ -495,6 +495,8 @@ img{
   position: relative;
   display: block;
   background: #253b70;
+  padding: 16px 0px 17px 0px;
+
   width: 100%;
  }
 
@@ -870,10 +872,11 @@ width: 100%;
 .main-menu .navigation > li > ul > li{
   position:relative;
   width:100%;
-  padding: 7px 30px;
+  padding: 7px 15px;
   border-bottom: 1px solid #e5e5e5;
   transition: all 500ms ease;
 }
+
 
 .main-menu .navigation > li > ul > li:last-child{
   border-bottom:none; 
@@ -1347,7 +1350,8 @@ width: 100%;
 .about-section{
   position: relative;
   display: block;
-  padding: 144px 0px 250px 0px;
+  padding-top: 80px;
+  padding-bottom: 100px;
 }
 
 .anim-icon {
@@ -3141,6 +3145,8 @@ h3 a:hover{
   position: relative;
   display: block;
   background: #f1f0e9;
+  padding: 50px 0px 50px 0px;
+
 }
 
 .offer-section .sec-title{
@@ -3152,7 +3158,8 @@ h3 a:hover{
   display: block;
   background: #fff;
   border-radius: 15px;
-  padding: 75px 15px 60px 15px;
+  height: 300px;
+  padding: 20px;
   box-shadow: 0 15px 50px rgba(0,0,0,.10);
 }
 
@@ -3326,7 +3333,7 @@ h3 a:hover{
 .activities-section{
   position: relative;
   display: block;
-  padding: 144px 0px 100px 0px;
+  padding: 50px 0px 50px 0px;
 }
 
 .activities-section .sec-title{
@@ -4615,7 +4622,7 @@ h3 a:hover{
 .faq-page-section{
   position: relative;
   display: block;
-  padding: 144px 0px 150px 0px;
+  padding: 50px 0px 50px 0px;
 }
 
 .faq-page-section .accordion-box .block:nth-child(3){
@@ -4642,7 +4649,7 @@ h3 a:hover{
 
 .faq-page-section .faq-content{
   margin-top: 6px;
-  height: 680px;
+  height: auto;
 }
 
 .faq-page-section .anim-icon .icon-1 {
@@ -5145,6 +5152,8 @@ h3 a:hover{
 .pricing-section{
   position: relative;
   display: block;
+  padding: 50px 0px 50px 0px;
+
 }
 
 .pricing-section .sec-title{
@@ -7659,6 +7668,8 @@ h3 a:hover{
 .contact-info-section{
   position: relative;
   display: block;
+  background: #f0ede7;
+padding: 50px 0px 50px 0px;
   
 }
 
